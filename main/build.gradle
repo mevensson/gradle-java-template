@@ -1,0 +1,7 @@
+apply plugin: 'application'
+
+dependencies {
+	compile project(':lib')
+}
+
+mainClassName = 'eu.evensson.helloworld.main.Main'
